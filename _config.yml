@@ -5,7 +5,7 @@
 title: KHORTECH Project Blog
 description: Project documentation for KHORTECH Custom, showcasing our work across the motorsport, aviation, UAS, and agriculture industries.
 url: https://khortech.com.au
-baseurl: ""
+baseurl: "/KHORTECH_Projects"
 
 # Repository
 repository: https://github.com/mgreenhough/KHORTECH_Projects
