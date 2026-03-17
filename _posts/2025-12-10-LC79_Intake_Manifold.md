@@ -36,34 +36,33 @@ For this proof of concept, the design was cut in half and joined due to the size
 ## Images & Media
 
 <!Image Grid>
-```html
+
 <div style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 1rem;">
   <figure>
-    <img src="assets/project_photos/LC79_intake/Intake_Manifold_1.png" alt="CAD1">
+    <img src="{{ '/assets/project_photos/LC79_intake/Intake_Manifold_1.png' | relative_url }}" alt="CAD1">
     <figcaption>CAD View 1</figcaption>
   </figure>
   <figure>
-    <img src="assets/project_photos/LC79_intake/Intake_Manifold_2.png" alt="CAD2">
+    <img src="{{ '/assets/project_photos/LC79_intake/Intake_Manifold_2.png' | relative_url }}" alt="CAD2">
     <figcaption>CAD View 2</figcaption>
   </figure>
   <figure>
-    <img src="assets/project_photos/LC79_intake/Intake_Manifold_3.png" alt="CAD3">
+    <img src="{{ '/assets/project_photos/LC79_intake/Intake_Manifold_3.png' | relative_url }}" alt="CAD3">
     <figcaption>CAD View 3</figcaption>
   </figure>
   <figure>
-    <img src="assets/project_photos/LC79_intake/inst1.jpg" alt="Installed1">
+    <img src="{{ '/assets/project_photos/LC79_intake/inst1.jpg' | relative_url }}" alt="Installed1">
     <figcaption>Installed View 1</figcaption>
   </figure>
   <figure>
-    <img src="assets/project_photos/LC79_intake/inst2.jpg" alt="Installed2">
+    <img src="{{ '/assets/project_photos/LC79_intake/inst2.jpg' | relative_url }}" alt="Installed2">
     <figcaption>Installed View 2</figcaption>
   </figure>
   <figure>
-    <img src="assets/project_photos/LC79_intake/inst3.jpg" alt="Installed3">
+    <img src="{{ '/assets/project_photos/LC79_intake/inst3.jpg' | relative_url }}" alt="Installed3">
     <figcaption>Installed View 3</figcaption>
   </figure>
 </div>
-```
 
 ---
 
