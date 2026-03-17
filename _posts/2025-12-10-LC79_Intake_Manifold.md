@@ -5,6 +5,7 @@ categories: [motorsport,3d-printing]  # Options: motorsport, aviation, uas, agri
 tags: [3D-Printing, CAD, Prototyping, PAHT-CF, Engineering Filament, Carbon Fibre, Manifold, Intake]
 status: "Testing"  # Options: Planning, In Progress, Complete, Testing
 image: "assets/project_photos/LC79_intake/inst1.jpg"
+excerpt: "3D printed intake manifold for a modified LC79 Landcruiser using high temp nylon carbon fibre."
 ---
 
 ## Overview
