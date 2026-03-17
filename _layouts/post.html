@@ -139,13 +139,15 @@
 </div>
 
 <script>
-  // Lightbox functionality
-  document.querySelectorAll('article img').forEach(img => {
-    img.addEventListener('click', function() {
-      const lightbox = document.getElementById('lightbox');
-      const lightboxImg = document.getElementById('lightbox-img');
-      lightboxImg.src = this.src;
-      lightbox.classList.add('active');
+  // Lightbox functionality - run after DOM is loaded
+  document.addEventListener('DOMContentLoaded', function() {
+    document.querySelectorAll('article img').forEach(img => {
+      img.addEventListener('click', function() {
+        const lightbox = document.getElementById('lightbox');
+        const lightboxImg = document.getElementById('lightbox-img');
+        lightboxImg.src = this.src;
+        lightbox.classList.add('active');
+      });
     });
   });
 </script>
