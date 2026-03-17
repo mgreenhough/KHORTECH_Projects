@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{{ page.title }} | KHORTECH Projects</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f9f9f9;
+      line-height: 1.6;
+    }
+    header {
+      padding: 1.5rem;
+      text-align: center;
+      background-color: #1a1a1a;
+      color: #fff;
+    }
+    header a {
+      color: #fff;
+      text-decoration: none;
+    }
+    .container {
+      max-width: 900px;
+      margin: 0 auto;
+      padding: 2rem;
+      background-color: #fff;
+    }
+    .post-meta {
+      color: #666;
+      margin-bottom: 1.5rem;
+      padding-bottom: 1rem;
+      border-bottom: 1px solid #ddd;
+    }
+    .post-meta span {
+      margin-right: 1rem;
+    }
+    h1 {
+      margin-top: 0;
+    }
+    img {
+      max-width: 100%;
+      height: auto;
+      display: block;
+      margin: 1rem 0;
+    }
+    .back-link {
+      display: inline-block;
+      margin-top: 2rem;
+      padding: 0.5rem 1rem;
+      background-color: #1a1a1a;
+      color: #fff;
+      text-decoration: none;
+      border-radius: 4px;
+    }
+    .back-link:hover {
+      background-color: #333;
+    }
+    pre {
+      background-color: #f4f4f4;
+      padding: 1rem;
+      overflow-x: auto;
+    }
+    code {
+      background-color: #f4f4f4;
+      padding: 0.2rem 0.4rem;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <a href="/">← Back to Projects</a>
+</header>
+
+<div class="container">
+  <article>
+    <h1>{{ page.title }}</h1>
+    
+    <div class="post-meta">
+      <span><strong>Date:</strong> {{ page.date | date: "%Y-%m-%d" }}</span>
+      {% if page.status %}
+      <span><strong>Status:</strong> {{ page.status }}</span>
+      {% endif %}
+      {% if page.categories %}
+      <span><strong>Categories:</strong> {{ page.categories | join: ", " }}</span>
+      {% endif %}
+    </div>
+
+    {{ content }}
+
+  </article>
+
+  <a href="/" class="back-link">← Back to All Projects</a>
+</div>
+
+</body>
+</html>
