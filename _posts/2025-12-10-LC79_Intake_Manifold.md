@@ -1,10 +1,10 @@
 ---
 title: "LC79 Intake Manifold"
 date: 2025-12-10
-categories: [motorsport,3d-printing]  # Options: motorsport, aviation, uas, agriculture, electronics, 3d-printing - can add more to Homepage.htmml
+categories: [motorsport,3d-printing]  # Options: motorsport, aviation, uas, agriculture, electronics, 3d-printing - can add more to Homepage.html
 tags: [3D-Printing, CAD, Prototyping, PAHT-CF, Engineering Filament, Carbon Fibre, Manifold, Intake]
 status: "Testing"  # Options: Planning, In Progress, Complete, Testing
-image: "assets/images/LC79_Intake_Manifold/placeholder.jpg"
+image: "assets/project_photos/LC79_intake/inst1.jpg"
 ---
 
 ## Overview

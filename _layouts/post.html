@@ -45,6 +45,39 @@
       height: auto;
       display: block;
       margin: 1rem 0;
+      cursor: pointer;
+    }
+    figure {
+      margin: 0;
+    }
+    figcaption {
+      text-align: center;
+      color: #666;
+      font-size: 0.9rem;
+      margin-top: 0.5rem;
+    }
+    /* Lightbox styles */
+    .lightbox {
+      display: none;
+      position: fixed;
+      z-index: 1000;
+      left: 0;
+      top: 0;
+      width: 100%;
+      height: 100%;
+      background-color: rgba(0, 0, 0, 0.9);
+      cursor: pointer;
+    }
+    .lightbox.active {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    .lightbox img {
+      max-width: 90%;
+      max-height: 90%;
+      object-fit: contain;
+      margin: 0;
     }
     .back-link {
       display: inline-block;
@@ -67,9 +100,55 @@
       background-color: #f4f4f4;
       padding: 0.2rem 0.4rem;
     }
+    /* Lightbox styles */
+    .lightbox {
+      display: none;
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background-color: rgba(0, 0, 0, 0.9);
+      z-index: 1000;
+      justify-content: center;
+      align-items: center;
+      cursor: pointer;
+    }
+    .lightbox.active {
+      display: flex;
+    }
+    .lightbox img {
+      max-width: 90%;
+      max-height: 90%;
+      object-fit: contain;
+    }
+    article img {
+      cursor: pointer;
+      transition: opacity 0.3s ease;
+    }
+    article img:hover {
+      opacity: 0.8;
+    }
   </style>
 </head>
 <body>
+
+<!-- Lightbox -->
+<div id="lightbox" class="lightbox" onclick="this.classList.remove('active')">
+  <img id="lightbox-img" src="" alt="Enlarged view">
+</div>
+
+<script>
+  // Lightbox functionality
+  document.querySelectorAll('article img').forEach(img => {
+    img.addEventListener('click', function() {
+      const lightbox = document.getElementById('lightbox');
+      const lightboxImg = document.getElementById('lightbox-img');
+      lightboxImg.src = this.src;
+      lightbox.classList.add('active');
+    });
+  });
+</script>
 
 <header>
   <a href="{{ '/' | relative_url }}">← Back to Projects</a>
