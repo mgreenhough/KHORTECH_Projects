@@ -13,6 +13,8 @@ repository: https://github.com/mgreenhough/KHORTECH_Projects
 # Build Settings
 markdown: kramdown
 highlighter: rouge
+future: true
+permalink: /:year/:month/:day/:title/
 # theme: minima  # Disabled to use custom HTML
 
 # Plugins
