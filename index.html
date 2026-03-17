@@ -120,7 +120,7 @@ layout: null
 <body>
 
 <header>
-  <img src="assets/logo/LOGO_black_bg.png" alt="KHORTECH Logo" class="logo">
+  <img src="{{ 'assets/logo/LOGO_black_bg.png' | relative_url }}" alt="KHORTECH Logo" class="logo">
   <h1>KHORTECH Project Blog</h1>
   <p>Project documentation for KHORTECH Custom, showcasing our work across the motorsport, aviation, UAS, and agriculture industries.</p>
 </header>
@@ -133,7 +133,6 @@ layout: null
     <li><strong>3D Printing, Scanning &amp; Additive Manufacturing</strong> — Advanced manufacturing for rapid prototyping and production</li>
   </ul>
   <p><strong>Contact</strong></p>
-  <p>For inquiries or collaborations, reach out through our website or email:</p>
   <ul>
     <li><a href="https://www.khortech.com.au" target="_blank">www.khortech.com.au</a></li>
     <li><a href="mailto:matt@khortech.com.au">matt@khortech.com.au</a></li>
@@ -155,8 +154,8 @@ layout: null
 <section class="project-grid">
   {% for post in site.posts %}
   <div class="project-card" data-category="{{ post.categories | join: ',' }}">
-    <a href="{{ post.url }}">
-      <img src="{{ post.image }}" alt="{{ post.title }}">
+    <a href="{{ post.url | relative_url }}">
+      <img src="{{ post.image | relative_url }}" alt="{{ post.title }}">
       <h3>{{ post.title }}</h3>
     </a>
     <p>{{ post.excerpt }}</p>
