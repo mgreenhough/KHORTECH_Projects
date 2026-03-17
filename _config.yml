@@ -1,0 +1,41 @@
+# Jekyll Configuration
+# https://jekyllrb.com/docs/configuration/
+
+# Site Settings
+title: KHORTECH Project Blog
+description: Project documentation for KHORTECH Custom, showcasing our work across the motorsport, aviation, UAS, and agriculture industries.
+url: https://khortech.com.au
+baseurl: ""
+
+# Repository
+repository: https://github.com/mgreenhough/KHORTECH_Projects
+
+# Build Settings
+markdown: kramdown
+highlighter: rouge
+theme: minima
+
+# Plugins
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+
+# Collections
+collections:
+  posts:
+    output: true
+    permalink: /:collection/:name/
+
+# Defaults
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: post
+
+# Exclude files from processing
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
