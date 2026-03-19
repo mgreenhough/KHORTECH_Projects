@@ -36,7 +36,6 @@ For this proof of concept, the design was cut in half and joined due to the size
 
 ## Images & Media
 
-<!Image Grid>
 
 <div style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 1rem;">
   <figure>
