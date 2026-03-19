@@ -4,7 +4,7 @@ date: 2026-03-19
 categories: [uas, electronics, 3d-printing]
 tags: [FPV, Gimbal, Thermal, Camera, Quadcopter, Drone]
 status: "In Progress"
-image: "assets/project_photos/FPV_gimbal/Wraith One v18.png"
+image: "/assets/project_photos/FPV_gimbal/Wraith One v18.png"
 excerpt: "A universal, dual-spectrum camera gimbal for FPV quadcopters featuring -40° to +90° range of motion for a seamless combination of high-speed, full angle of attack flying and top-down surveillance in situ."
 ---
 
@@ -20,7 +20,7 @@ The solution is a lightweight, single-axis gimbal carrying both thermal and visu
 
 ## Technical Approach
 
-The design prioritizes range of motion, damping and weight reduction through topology-optimized 3D printed components in a linkage free, direct drive single-axis design that also minimises cost and complexity. The components were nested specifically to facilitate maximum ROM and lower the gimbal’s moment of inertia about its rotation axis so as to reduce the servos torque requirements and maximise stability and tilt authority. 
+The design prioritizes range of motion, damping and weight reduction through topology-optimized 3D printed components in a linkage free, direct drive single-axis design that also minimises cost and complexity. The components were nested specifically to facilitate maximum ROM and lower the gimbal's moment of inertia about its rotation axis so as to reduce the servos torque requirements and maximise stability and tilt authority. 
 
 A universal mounting system ensures compatibility with a wide range of FPV frames and DFM methodologies allow for streamlined and efficient manufacture and assembly.
 
@@ -43,28 +43,28 @@ FPV platforms can produce high vibrational noise in video feeds. The system uses
 ### CAD Renders
 
 <figure>
-  <img src="assets/project_photos/FPV_gimbal/Wraith One v18.png" alt="Gimbal CAD render showing dual camera mounting">
+  <img src="/assets/project_photos/FPV_gimbal/Wraith One v18.png" alt="Gimbal CAD render showing dual camera mounting">
   <figcaption>Primary CAD render showing the dual-spectrum camera arrangement on 7 inch frame</figcaption>
 </figure>
 
 <div style="display: grid; grid-template-columns: repeat(2, 1fr); gap: 1rem;">
   <figure>
-    <img src="assets/project_photos/FPV_gimbal/Wraith One.OneTwo v11.png" alt="Design iteration v11">
+    <img src="/assets/project_photos/FPV_gimbal/Wraith One.OneTwo v11.png" alt="Design iteration v11">
     <figcaption>Section analysis 1</figcaption>
   </figure>
   <figure>
-    <img src="assets/project_photos/FPV_gimbal/Wraith One.OneTwo v12.png" alt="Design iteration v12">
+    <img src="/assets/project_photos/FPV_gimbal/Wraith One.OneTwo v12.png" alt="Design iteration v12">
     <figcaption>Section analysis 2</figcaption>
   </figure>
 </div>
 
 <div style="display: grid; grid-template-columns: repeat(2, 1fr); gap: 1rem;">
   <figure>
-    <img src="assets/project_photos/FPV_gimbal/Wraith One.OneTwo v122.png" alt="Design iteration v122">
+    <img src="/assets/project_photos/FPV_gimbal/Wraith One.OneTwo v122.png" alt="Design iteration v122">
     <figcaption>Cruize ~-25 deg</figcaption>
   </figure>
   <figure>
-    <img src="assets/project_photos/FPV_gimbal/Wraith One.OneTwo v123.png" alt="Design iteration v123">
+    <img src="/assets/project_photos/FPV_gimbal/Wraith One.OneTwo v123.png" alt="Design iteration v123">
     <figcaption>Top-down (nadir) mode</figcaption>
   </figure>
 </div>
@@ -72,7 +72,7 @@ FPV platforms can produce high vibrational noise in video feeds. The system uses
 ### Physical Prototype
 
 <figure>
-  <img src="assets/project_photos/FPV_gimbal/20241226_175048.jpg" alt="Assembled gimbal prototype">
+  <img src="/assets/project_photos/FPV_gimbal/20241226_175048.jpg" alt="Assembled gimbal prototype">
   <figcaption>The start of the process</figcaption>
 </figure>
 
