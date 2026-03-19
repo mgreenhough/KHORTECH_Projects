@@ -38,9 +38,7 @@ FPV platforms can produce high vibrational noise in video feeds. The system uses
 
 ---
 
-## Images & Media
-
-### CAD Renders
+## Images & Media - More to come soon!
 
 <figure>
   <img src="{{ '/assets/project_photos/FPV_gimbal/Wraith_One_v18.png' | relative_url }}" alt="Gimbal CAD render showing dual camera mounting">
@@ -68,8 +66,6 @@ FPV platforms can produce high vibrational noise in video feeds. The system uses
     <figcaption>Top-down (nadir) mode</figcaption>
   </figure>
 </div>
-
-### Physical Prototype
 
 <figure>
   <img src="{{ '/assets/project_photos/FPV_gimbal/20241226_175048.jpg' | relative_url }}" alt="Assembled gimbal prototype">
