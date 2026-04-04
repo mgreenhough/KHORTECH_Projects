@@ -6,7 +6,8 @@ layout: null
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>KHORTECH Projects</title> 
+  <title>KHORTECH Projects</title>
+  <link rel="alternate" type="application/rss+xml" title="KHORTECH Projects RSS Feed" href="/feed.xml">
   <style>
     /* Base styling */
     body {
@@ -102,6 +103,23 @@ layout: null
       color: inherit;
     }
 
+    header .rss-link {
+      position: absolute;
+      top: 1rem;
+      right: 1rem;
+      color: #fff;
+      text-decoration: none;
+      font-size: 0.9rem;
+      padding: 0.5rem 1rem;
+      border: 1px solid #fff;
+      border-radius: 20px;
+      transition: all 0.2s;
+    }
+    header .rss-link:hover {
+      background-color: #fff;
+      color: #1a1a1a;
+    }
+
     /* Mobile adjustments */
     @media (max-width: 600px) {
       header h1 {
@@ -121,6 +139,7 @@ layout: null
 
 <header>
   <img src="{{ 'assets/logo/LOGO_black_bg.png' | relative_url }}" alt="KHORTECH Logo" class="logo">
+  <a href="/feed.xml" class="rss-link" title="Subscribe to RSS Feed">RSS Feed</a>
   <h1>KHORTECH Project Blog</h1>
   <p>Project documentation for KHORTECH Custom, showcasing our work across the motorsport, aviation, UAS, and agriculture industries.</p>
 </header>
