@@ -12,6 +12,10 @@ excerpt: "An agentic accountability system that combines data and AI coaching wi
 
 This project is an independent tool inspired by Jocko Willink's and Ryan Holidays philosophies. It is not affiliated with, endorsed by, or associated with them personally or with their companies.
 
+I highly recommend their books **Extreme Ownership** and **The Daily Stoic**
+
+<img src="{{ 'assets/project_photos/Jocko/discipline_equals_freedom.png' | relative_url }}" alt="The Jocko System">
+
 ## Overview
 
 **Put your money where your mouth is.**
@@ -22,7 +26,7 @@ The system also integrates daily mindfulness by delivering a passage from *The D
 
 ---
 
-![Alt text](assets/project_photos/Jocko/Jocko_automated_accountability_system.png)
+<img src="{{ '/assets/project_photos/Jocko/Jocko_automated_accountability_system.png' | relative_url }}" alt="The Jocko System">
 
 ---
 
