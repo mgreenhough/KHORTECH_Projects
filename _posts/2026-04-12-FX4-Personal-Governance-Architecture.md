@@ -40,7 +40,7 @@ The implementation is written in C++ as a conceptual executable that could serve
 
 ### The Four F's & Override Logic
 
-![Personal Governance Architecture (FX4 PGA)](/assets/project_photos/FX4_PGA/Personal_Governance_Architecture_FX4_PGA.png)
+![Personal Governance Architecture (FX4 PGA)]({{ '/assets/project_photos/FX4_PGA/Personal_Governance_Architecture_FX4_PGA.png' | relative_url }})
 
 While `ops_normal == 1`, the system evaluates each domain in priority order. However, two conditional flags provide override authority taking conditional precedence over all domains
 
