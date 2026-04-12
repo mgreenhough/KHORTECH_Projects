@@ -34,6 +34,8 @@ The system is built around four core domains in priority order:
 
 ### Why Code?
 
+![Code Shot]({{ '/assets/project_photos/FX4_PGA/code_shot.png' | relative_url }})
+
 This project is expressed in code as a nod to neurodivergents, those who think in systems & syntax, to those who need to dissect and recompile in their own way before deploying. It's somewhat tongue in cheek whilst, comically, actually providing a precise, unambiguous way to express day-to-day decision logic.
 
 The implementation is written in C++ as a conceptual executable that could serve as an engine for game theory simulation in future iterations.
