@@ -103,7 +103,7 @@ You can message the bot at any time. It responds with full awareness of your tra
 ## Project Files
 
 - Read below before accessing the [GitHub Repository](https://github.com/mgreenhough/JOCKO)
-- [Installation Guide](ai-coach/README.md)
+- [Installation Guide](https://github.com/mgreenhough/JOCKO/blob/main/README.md)
 
 ## LEGAL NOTICE
 
