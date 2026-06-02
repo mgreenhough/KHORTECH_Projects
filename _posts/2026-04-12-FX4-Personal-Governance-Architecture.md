@@ -8,6 +8,10 @@ image: "assets/project_photos/FX4_PGA/FX4_personal_governance_system_illustratio
 excerpt: "FX4 is a conceptual decision architecture that guides day-to-day choices by a deterministic, rule-based evaluation loop. As if you were a predictable, well-behaved system instead of a sleep-deprived, erratic and emotional sack of skin."
 ---
 
+<figure style="margin: 0 0 1.5rem 0;">
+  <img src="{{ '/assets/project_photos/FX4_PGA/FX4_personal_governance_system_illustration.png' | relative_url }}" alt="Project Tracker Main View" style="width: 100%; border-radius: 0.5rem;">
+</figure>
+
 ## Overview
 
 **Liberation through deterministic constraint.**
