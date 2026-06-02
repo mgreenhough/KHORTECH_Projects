@@ -8,6 +8,10 @@ image: "assets/project_photos/Project_Tracker/project_tracker_main.png"
 excerpt: "A brutally functional and lightweight, drag-and-drop project prioritisation and organisation tool designed for rapid operational visibility and iteration. Built to stay out of the way — minimal clicks, no modals, no corporate bloat."
 ---
 
+<figure style="margin: 0 0 1.5rem 0;">
+  <img src="{{ '/assets/project_photos/Project_Tracker/project_tracker_main.png' | relative_url }}" alt="Project Tracker Main View" style="width: 100%; border-radius: 0.5rem;">
+</figure>
+
 ## Overview
 
 **Operational clarity without the bureaucracy.**
