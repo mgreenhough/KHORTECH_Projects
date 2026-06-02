@@ -1,7 +1,7 @@
 ---
 title: "Project Title"
 date: YYYY-MM-DD
-categories: [category1, category2]  # Options: motorsport, aviation, uas, agriculture, electronics, 3d-printing
+categories: [category1, category2]  # Options: motorsport, aviation, uas, agriculture, electronics, 3d-printing, programing
 tags: [Tag1, Tag2, Tag3, Tag4]  # Add relevant tags
 status: "Planning"  # Options: Planning, In Progress, Complete, Testing
 image: "assets/images/PROJECT_FOLDER/placeholder.jpg"
